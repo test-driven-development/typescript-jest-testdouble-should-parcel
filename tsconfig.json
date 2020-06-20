@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "outDir": "../../dist/out-tsc",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "files": ["setup-jest.ts"],
+  "exclude": [
+    "node_modules",
+    ".cache",
+    ".idea",
+    "assets",
+    "dist",
+    "setup-jest.ts",
+    "**/*.spec.ts"
+  ]
+}
